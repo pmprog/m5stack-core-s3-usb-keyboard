@@ -1,0 +1,25 @@
+{
+  "name": "M5Stack Core S3 USB Keyboard",
+  "version": "1.0.0",
+  "author": "pmprog",
+  "description": "USB keyboard driver for M5Stack Core S3 SE with USB-C OTG support",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmprog/m5stack-core-s3-usb-keyboard.git"
+  },
+  "keywords": [
+    "m5stack",
+    "core-s3",
+    "usb",
+    "keyboard",
+    "hid",
+    "otg"
+  ],
+  "category": "Device Control",
+  "architectures": [
+    "esp32"
+  ],
+  "includes": [
+    "USBKeyboardHandler.h"
+  ]
+}
